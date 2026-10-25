@@ -167,24 +167,73 @@ Bagian tugas membahas konsep-konsep dasar JavaScript berikut:
 
 ## Dokumentasi Hasil Praktikum
 
-Screenshot hasil pengerjaan disimpan di folder `Screenshot/`. Berikut contoh penyematan gambar di README. Pastikan nama file pada tautan sesuai dengan nama file yang benar di repository.
+Screenshot hasil pengerjaan praktikum ditampilkan di bawah ini. Pastikan semua file berada di folder `Screenshot/` dan nama file beserta ekstensinya sama persis: `ss1.png` sampai `ss16.png`.
 
-### Hasil Latihan
+### SS1 — Latihan 1: Menampilkan Output
 
-| Kegiatan | Screenshot |
-|---|---|
-| Latihan 1 — Output | `Screenshot/ss1.png` |
-| Latihan 2 — Alert dan Prompt | `Screenshot/ss2.png` |
-| Latihan 3 — Operasi Aritmetika | `Screenshot/ss3.png` |
-| Latihan 4 — `if–else` | `Screenshot/ss4.png` |
-| Latihan 5 — `switch` | `Screenshot/ss5.png` |
-| Latihan 6 — Genap atau Ganjil | `Screenshot/ss6.png` |
-| Latihan 7 — Mengubah Warna | `Screenshot/ss7.png` |
-| Latihan 8 — Total Menu | `Screenshot/ss8.png` |
-| Mini Project — Kalkulator Nilai | `Screenshot/ss9.png` |
-| Eksperimen dan Tugas | `Screenshot/ss10.png`–`Screenshot/ss16.png` |
+![SS1 — Menampilkan Output](Screenshot/ss1.png)
 
-> Untuk menampilkan gambar langsung pada halaman GitHub, gunakan sintaks seperti `![Hasil Latihan 1](Screenshot/ss1.png)`. Daftar di atas menggunakan nama file sebagai referensi agar tidak mengasumsikan bahwa semua screenshot memiliki nama atau urutan yang sama dengan dokumen laporan.
+### SS2 — Latihan 2: Alert dan Prompt
+
+![SS2 — Alert dan Prompt](Screenshot/ss2.png)
+
+### SS3 — Latihan 3: Operasi Aritmetika
+
+![SS3 — Operasi Aritmetika](Screenshot/ss3.png)
+
+### SS4 — Latihan 4: Percabangan if-else
+
+![SS4 — Percabangan if-else](Screenshot/ss4.png)
+
+### SS5 — Latihan 5: Percabangan switch
+
+![SS5 — Percabangan switch](Screenshot/ss5.png)
+
+### SS6 — Latihan 6: Bilangan Genap atau Ganjil
+
+![SS6 — Bilangan Genap atau Ganjil](Screenshot/ss6.png)
+
+### SS7 — Latihan 7: Mengubah Warna Halaman
+
+![SS7 — Mengubah Warna Halaman](Screenshot/ss7.png)
+
+### SS8 — Latihan 8: Total Menu Makanan
+
+![SS8 — Total Menu Makanan](Screenshot/ss8.png)
+
+### SS9 — Mini Project: Kalkulator Nilai Mahasiswa
+
+![SS9 — Kalkulator Nilai Mahasiswa](Screenshot/ss9.png)
+
+### SS10 — Eksperimen 1
+
+![SS10 — Eksperimen 1](Screenshot/ss10.png)
+
+### SS11 — Eksperimen 2
+
+![SS11 — Eksperimen 2](Screenshot/ss11.png)
+
+### SS12 — Eksperimen 3
+
+![SS12 — Eksperimen 3](Screenshot/ss12.png)
+
+### SS13 — Eksperimen 4
+
+![SS13 — Eksperimen 4](Screenshot/ss13.png)
+
+### SS14 — Eksperimen 5
+
+![SS14 — Eksperimen 5](Screenshot/ss14.png)
+
+### SS15 — Eksperimen 6
+
+![SS15 — Eksperimen 6](Screenshot/ss15.png)
+
+### SS16 — Dokumentasi Tugas
+
+![SS16 — Dokumentasi Tugas](Screenshot/ss16.png)
+
+> **Jika gambar belum muncul:** periksa apakah nama folder benar-benar `Screenshot`, dan nama file tepat `ss1.png`, `ss2.png`, ... `ss16.png`. GitHub membedakan huruf besar dan kecil. Jika ekstensi aslinya `.jpg`, `.jpeg`, atau `.PNG`, sesuaikan tautan di atas dengan nama file yang sebenarnya.
 
 ## Kesimpulan
 
