@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum JavaScript</title>
+</head>
+<body>
+    <h1>Pengenalan JavaScript</h1>
+    <p id="pesan">Konten awal.</p>
+
+    <!-- Latihan 6: Form bilangan genap atau ganjil -->
+    <div>
+        <h3>Cek Bilangan Genap/Ganjil</h3>
+        <label for="bilangan">Masukkan bilangan bulat: </label>
+        <input type="number" id="bilangan" step="1">
+        <button type="button" onclick="cekBilangan()">Periksa</button>
+        <p id="hasilBilangan"></p>
+    </div>
+
+    <!-- Latihan 7: Mengubah warna halaman -->
+    <div>
+        <h3>Ubah Warna Latar</h3>
+        <button type="button" onclick="ubahWarnaLatar('lightgreen')">Latar Hijau</button>
+        <button type="button" onclick="ubahWarnaLatar('white')">Latar Putih</button>
+        <button type="button" onclick="ubahWarnaLatar('lightyellow')">Latar Kuning</button>
+    </div>
+
+    <!-- Latihan 8: DOM dan checkbox menu makanan -->
+    <div>
+        <h3>Daftar Menu Makanan</h3>
+        <label><input type="checkbox" class="menu" value="5000"> Ayam Goreng Rp5.000</label><br>
+        <label><input type="checkbox" class="menu" value="500"> Tempe Rp500</label><br>
+        <label><input type="checkbox" class="menu" value="2500"> Telur Dadar Rp2.500</label><br>
+        <p>Total: Rp<span id="total">0</span></p>
+    </div>
+
+  <!-- Mini Project -->
+<section id="mini-project">
+    <h2>Mini Project — Kalkulator Nilai Mahasiswa</h2>
+    <form>
+        <label for="inputTugas">Nilai Tugas:</label>
+        <input type="number" id="inputTugas"><br>
+        <label for="inputUts">Nilai UTS:</label>
+        <input type="number" id="inputUts"><br>
+        <label for="inputUas">Nilai UAS:</label>
+        <input type="number" id="inputUas"><br>
+        <button type="button" onclick="prosesNilai()">Hitung</button>
+    </form>
+    <p id="hasilNilai"></p>
+</section>
+
+<!-- Eksperimen Mandiri -->
+<section id="eksperimen">
+    <h2>Eksperimen Mandiri</h2>
+
+    <!-- Eksperimen 1 -->
+    <button type="button" onclick="eksperimen1()">Jalankan Eksperimen 1</button>
+    <p id="hasilEks1"></p>
+
+    <!-- Eksperimen 2 -->
+    <button type="button" onclick="eksperimen2()">Tampilkan Tabel Perkalian 7</button>
+    <pre id="hasilEks2"></pre>
+
+    <!-- Eksperimen 3 -->
+    <label for="eks3Angka">Bilangan:</label>
+    <input type="number" id="eks3Angka" step="1">
+    <button type="button" onclick="eksperimen3()">Cek</button>
+    <p id="hasilEks3"></p>
+
+    <!-- Eksperimen 4 -->
+    <label for="eks4Nama">Nama:</label>
+    <input type="text" id="eks4Nama">
+    <label for="eks4Email">Email:</label>
+    <input type="text" id="eks4Email">
+    <button type="button" onclick="eksperimen4()">Kirim</button>
+    <p id="hasilEks4"></p>
+
+    <!-- Eksperimen 5 -->
+    <div>
+        <label><input type="checkbox" class="menu-baru" value="5000"> Ayam Goreng — Rp5.000</label><br>
+        <label><input type="checkbox" class="menu-baru" value="500"> Tempe — Rp500</label><br>
+        <label><input type="checkbox" class="menu-baru" value="2500"> Telur Dadar — Rp2.500</label><br>
+        <label><input type="checkbox" class="menu-baru" value="3000"> Nasi Putih — Rp3.000</label><br>
+        <label><input type="checkbox" class="menu-baru" value="2000"> Es Teh Manis — Rp2.000</label><br>
+        <p>Total: Rp<span id="totalBaru">0</span></p>
+    </div>
+
+    <!-- Eksperimen 6 -->
+    <button type="button" onclick="tampilSembunyi()">Tampilkan / Sembunyikan</button>
+    <p id="elemenToggle">Teks ini dapat disembunyikan dan ditampilkan kembali.</p>
+</section>
+
+<div>
+    <h3>Tugas Pertanyaan 7 — Validasi Nama dan Nilai</h3>
+    <label for="tugasNama">Nama:</label>
+    <input type="text" id="tugasNama">
+    <label for="tugasNilai">Nilai (0–100):</label>
+    <input type="number" id="tugasNilai">
+    <button type="button" onclick="validasiNamaNilai()">Validasi</button>
+    <p id="hasilTugas7"></p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
