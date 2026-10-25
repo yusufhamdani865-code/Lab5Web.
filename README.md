@@ -25,26 +25,26 @@
 
 ## Deskripsi
 
-Repository ini berisi hasil **Praktikum 5 — JavaScript Dasar** pada mata kuliah Pemrograman Web. Praktikum berfokus pada pengenalan sintaks JavaScript dan penerapannya untuk membuat halaman web yang interaktif, mulai dari menampilkan output, menggunakan variabel dan function, menerapkan percabangan serta perulangan, hingga memanipulasi elemen HTML dan memvalidasi input pengguna.
+Repository ini berisi hasil Praktikum 5 — JavaScript Dasar pada mata kuliah Pemrograman Web. Praktikum ini membahas dasar-dasar JavaScript dan penerapannya untuk membuat halaman web interaktif, mulai dari menampilkan output, menggunakan variabel dan function, menerapkan percabangan dan perulangan, hingga memanipulasi elemen HTML dan memvalidasi input pengguna.
 
-Seluruh latihan utama disusun menggunakan `index.html` dan `script.js`. Hasil pengujian didokumentasikan melalui screenshot.
+Latihan dikerjakan menggunakan HTML dan JavaScript. Hasil pengerjaan didokumentasikan melalui screenshot yang disimpan di folder `Screenshot/`.
 
 ## Tujuan Praktikum
 
 - Memahami sintaks dasar JavaScript dan cara menghubungkannya dengan HTML.
 - Menggunakan variabel, tipe data, operator, percabangan, perulangan, dan function.
 - Menampilkan informasi melalui `console.log()`, `alert()`, `prompt()`, dan elemen HTML.
-- Memanipulasi konten serta gaya elemen HTML menggunakan DOM.
+- Memanipulasi konten dan gaya elemen HTML menggunakan DOM.
 - Membuat interaksi sederhana pada form dan melakukan validasi input.
-- Mendokumentasikan pekerjaan praktikum beserta hasil pengujiannya.
+- Mendokumentasikan hasil pengerjaan praktikum.
 
 ## Teknologi dan Peralatan
 
-- **HTML5** — menyusun struktur halaman.
+- **HTML5** — menyusun struktur halaman web.
 - **JavaScript** — menambahkan logika dan interaksi.
-- **Visual Studio Code** — menulis dan mengedit kode.
-- **Web browser** — menjalankan halaman serta memeriksa Console melalui DevTools.
-- **GitHub** — menyimpan kode dan dokumentasi praktikum.
+- **Visual Studio Code** — menulis dan mengedit kode program.
+- **Web Browser** — menjalankan halaman web dan memeriksa Console.
+- **GitHub** — menyimpan kode program dan dokumentasi praktikum.
 
 ## Struktur Repository
 
@@ -53,70 +53,80 @@ Lab5Web/
 ├── index.html
 ├── script.js
 ├── Screenshot/
-│   ├── ss1.png
-│   ├── ss2.png
-│   ├── ss3.png
-│   ├── ...
-│   └── ss16.png
+│   ├── ss1 (3).png
+│   ├── ss2 (3).png
+│   ├── ss3 (3).png
+│   ├── ss4 (3).png
+│   ├── ss5 (2).png
+│   ├── ss6 (3).png
+│   ├── ss7 (3).png
+│   ├── ss8 (2).png
+│   ├── ss9 (2).png
+│   ├── ss10 (2).png
+│   ├── ss11.png
+│   ├── ss12 (2).png
+│   ├── ss13 (3).png
+│   ├── ss14.png
+│   ├── ss15 (2).png
+│   ├── ss15.png
+│   └── ss16 (3).png
 └── README.md
 ```
-
-> **Catatan:** Nama folder dan file screenshot harus sama persis dengan yang ada di repository. Jika nama atau ekstensi file berbeda, sesuaikan tautan gambar di bagian dokumentasi hasil.
 
 ## Persiapan dan Cara Menjalankan
 
 1. Clone atau unduh repository `Lab5Web`.
 2. Buka folder proyek menggunakan Visual Studio Code.
-3. Pastikan `index.html` dan `script.js` berada dalam folder yang sama.
-4. Pastikan `index.html` memuat JavaScript eksternal di bagian akhir elemen `body`:
+3. Pastikan file `index.html` dan `script.js` berada dalam folder proyek yang sesuai.
+4. Pastikan file HTML memanggil JavaScript eksternal menggunakan:
 
    ```html
    <script src="script.js"></script>
    ```
 
-5. Buka `index.html` menggunakan web browser.
-6. Ikuti instruksi pada halaman, seperti menekan tombol latihan atau mengisi form.
-7. Untuk melihat output `console.log()`, buka DevTools dengan menekan `F12`, lalu pilih tab **Console**.
+5. Buka `index.html` menggunakan browser.
+6. Jalankan latihan dan ikuti instruksi yang tersedia.
+7. Untuk melihat output `console.log()`, tekan `F12` pada browser dan buka tab **Console**.
 
 ## Materi dan Latihan
 
 ### 1. Menampilkan Output
 
-Mengubah teks elemen HTML menggunakan `document.getElementById()` dan `textContent`, serta menampilkan pesan di Console menggunakan `console.log()`.
+Menggunakan `document.getElementById()` dan `textContent` untuk mengubah teks pada elemen HTML serta `console.log()` untuk menampilkan informasi di Console.
 
 ### 2. Alert dan Prompt
 
-Menggunakan `prompt()` untuk meminta nama pengguna dan `alert()` untuk menampilkan sapaan. Input kosong, pembatalan, atau input yang hanya berisi spasi ditangani melalui validasi.
+Menggunakan `prompt()` untuk meminta nama pengguna dan `alert()` untuk menampilkan pesan. Input pengguna dapat diperiksa sebelum diproses.
 
 ### 3. Function dan Operasi Aritmetika
 
-Membuat function `operasiDasar(a, b)` untuk melakukan penjumlahan, pengurangan, perkalian, pembagian, dan modulus.
+Membuat function `operasiDasar(a, b)` untuk melakukan operasi penjumlahan, pengurangan, perkalian, pembagian, dan modulus.
 
-### 4. Percabangan `if–else`
+### 4. Percabangan `if-else`
 
-Memeriksa nilai mahasiswa pada rentang 0–100 dan menentukan status kelulusan dengan batas nilai minimal 60.
+Memeriksa nilai mahasiswa dan menentukan status berdasarkan kondisi yang telah ditetapkan.
 
 ### 5. Percabangan `switch`
 
-Mengubah input angka 1–5 menjadi nama bilangan menggunakan `switch`, `case`, `break`, dan `default`.
+Menggunakan `switch`, `case`, `break`, dan `default` untuk memilih keluaran berdasarkan nilai input.
 
 ### 6. Form Bilangan Genap atau Ganjil
 
-Memeriksa input bilangan bulat menggunakan `Number.isInteger()` dan operator modulus (`%`).
+Memeriksa bilangan menggunakan operator modulus (`%`) untuk menentukan apakah bilangan termasuk genap atau ganjil.
 
 ### 7. Mengubah Warna Halaman
 
-Menggunakan function berparameter `ubahWarnaLatar(warna)` untuk mengubah warna latar halaman menjadi hijau muda, putih, atau kuning muda.
+Menggunakan function untuk mengubah warna latar halaman web sesuai pilihan pengguna.
 
 ### 8. DOM dan Checkbox Menu Makanan
 
-Menghitung total harga menu secara otomatis berdasarkan checkbox yang dipilih, dengan memanfaatkan `querySelectorAll()`, `addEventListener()`, dan `toLocaleString("id-ID")`.
+Menggunakan elemen checkbox untuk memilih menu makanan dan menghitung total harga berdasarkan pilihan.
 
 ## Mini Project — Kalkulator Nilai Mahasiswa
 
-Mini project menerima nilai Tugas, UTS, dan UAS, kemudian menghitung nilai akhir, menentukan predikat, serta menampilkan status kelulusan.
+Mini project ini digunakan untuk menghitung nilai akhir mahasiswa berdasarkan nilai Tugas, UTS, dan UAS, kemudian menentukan predikat serta status kelulusan.
 
-**Bobot penilaian:**
+### Bobot Penilaian
 
 | Komponen | Bobot |
 |---|---:|
@@ -124,15 +134,15 @@ Mini project menerima nilai Tugas, UTS, dan UAS, kemudian menghitung nilai akhir
 | UTS | 30% |
 | UAS | 40% |
 
-Rumus nilai akhir:
+Rumus perhitungan nilai akhir:
 
 ```text
 Nilai Akhir = (Tugas × 30%) + (UTS × 30%) + (UAS × 40%)
 ```
 
-**Predikat nilai:**
+### Predikat Nilai
 
-| Rentang nilai akhir | Predikat |
+| Rentang Nilai Akhir | Predikat |
 |---|---|
 | ≥ 85 | A |
 | ≥ 75 dan < 85 | B |
@@ -140,108 +150,108 @@ Nilai Akhir = (Tugas × 30%) + (UTS × 30%) + (UAS × 40%)
 | ≥ 50 dan < 60 | D |
 | < 50 | E |
 
-Mahasiswa dinyatakan **Lulus** apabila nilai akhir minimal 60. Program juga memvalidasi agar semua nilai diisi dan berada dalam rentang 0–100.
+Mahasiswa dinyatakan lulus apabila nilai akhir memenuhi batas kelulusan yang diterapkan pada program.
 
 ## Eksperimen Mandiri
 
 Praktikum juga mencakup eksperimen berikut:
 
-1. Menjalankan operasi aritmetika menggunakan dua input dari `prompt()`.
-2. Menampilkan tabel perkalian 7 dari 1 sampai 10 menggunakan perulangan `for`.
-3. Membuat function `cekGenap(angka)` yang mengembalikan nilai boolean.
-4. Memvalidasi form agar nama dan email tidak kosong.
-5. Menambahkan menu makanan Nasi Putih dan Es Teh Manis serta menghitung total harga.
+1. Melakukan operasi aritmetika menggunakan input dari `prompt()`.
+2. Menampilkan tabel perkalian 7 menggunakan perulangan `for`.
+3. Membuat function `cekGenap(angka)` untuk memeriksa bilangan genap.
+4. Melakukan validasi form agar input yang diperlukan tidak kosong.
+5. Menambahkan pilihan menu makanan dan menghitung total harga.
 6. Membuat tombol untuk menyembunyikan dan menampilkan kembali elemen HTML.
 
 ## Pertanyaan dan Tugas
 
-Bagian tugas membahas konsep-konsep dasar JavaScript berikut:
+Materi pertanyaan praktikum membahas:
 
 - Perbedaan `console.log()`, `alert()`, `prompt()`, `textContent`, dan `innerHTML`.
 - Perbedaan deklarasi variabel `let` dan `const`.
 - Perbedaan operator perbandingan `==` dan `===`.
-- Fungsi percabangan `if–else` dan `switch`.
-- Peran parameter dan `return` pada function.
+- Penggunaan percabangan `if-else` dan `switch`.
+- Peran parameter dan `return` dalam function.
 - Pemilihan elemen HTML menggunakan `document.getElementById()`.
-- Pembuatan validasi form untuk nama dan nilai mahasiswa.
+- Validasi input form menggunakan JavaScript.
 
 ## Dokumentasi Hasil Praktikum
 
-Screenshot hasil pengerjaan praktikum ditampilkan di bawah ini. Pastikan semua file berada di folder `Screenshot/` dan nama file beserta ekstensinya sama persis: `ss1.png` sampai `ss16.png`.
+Bagian ini menampilkan screenshot hasil pengerjaan yang tersimpan dalam folder `Screenshot/`. Nama file pada tautan di bawah disesuaikan dengan nama file yang terdapat di repository GitHub.
 
-### SS1 — Latihan 1: Menampilkan Output
+### Screenshot 1 — Menampilkan Output
 
-![SS1 — Menampilkan Output](Screenshot/ss1.png)
+![Screenshot 1](Screenshot/ss1%20(3).png)
 
-### SS2 — Latihan 2: Alert dan Prompt
+### Screenshot 2 — Alert dan Prompt
 
-![SS2 — Alert dan Prompt](Screenshot/ss2.png)
+![Screenshot 2](Screenshot/ss2%20(3).png)
 
-### SS3 — Latihan 3: Operasi Aritmetika
+### Screenshot 3 — Operasi Aritmetika
 
-![SS3 — Operasi Aritmetika](Screenshot/ss3.png)
+![Screenshot 3](Screenshot/ss3%20(3).png)
 
-### SS4 — Latihan 4: Percabangan if-else
+### Screenshot 4 — Percabangan if-else
 
-![SS4 — Percabangan if-else](Screenshot/ss4.png)
+![Screenshot 4](Screenshot/ss4%20(3).png)
 
-### SS5 — Latihan 5: Percabangan switch
+### Screenshot 5 — Percabangan switch
 
-![SS5 — Percabangan switch](Screenshot/ss5.png)
+![Screenshot 5](Screenshot/ss5%20(2).png)
 
-### SS6 — Latihan 6: Bilangan Genap atau Ganjil
+### Screenshot 6 — Bilangan Genap atau Ganjil
 
-![SS6 — Bilangan Genap atau Ganjil](Screenshot/ss6.png)
+![Screenshot 6](Screenshot/ss6%20(3).png)
 
-### SS7 — Latihan 7: Mengubah Warna Halaman
+### Screenshot 7 — Mengubah Warna Halaman
 
-![SS7 — Mengubah Warna Halaman](Screenshot/ss7.png)
+![Screenshot 7](Screenshot/ss7%20(3).png)
 
-### SS8 — Latihan 8: Total Menu Makanan
+### Screenshot 8 — Menghitung Total Menu
 
-![SS8 — Total Menu Makanan](Screenshot/ss8.png)
+![Screenshot 8](Screenshot/ss8%20(2).png)
 
-### SS9 — Mini Project: Kalkulator Nilai Mahasiswa
+### Screenshot 9 — Mini Project Kalkulator Nilai Mahasiswa
 
-![SS9 — Kalkulator Nilai Mahasiswa](Screenshot/ss9.png)
+![Screenshot 9](Screenshot/ss9%20(2).png)
 
-### SS10 — Eksperimen 1
+### Screenshot 10 — Hasil Eksperimen
 
-![SS10 — Eksperimen 1](Screenshot/ss10.png)
+![Screenshot 10](Screenshot/ss10%20(2).png)
 
-### SS11 — Eksperimen 2
+### Screenshot 11 — Hasil Eksperimen
 
-![SS11 — Eksperimen 2](Screenshot/ss11.png)
+![Screenshot 11](Screenshot/ss11.png)
 
-### SS12 — Eksperimen 3
+### Screenshot 12 — Hasil Eksperimen
 
-![SS12 — Eksperimen 3](Screenshot/ss12.png)
+![Screenshot 12](Screenshot/ss12%20(2).png)
 
-### SS13 — Eksperimen 4
+### Screenshot 13 — Hasil Eksperimen
 
-![SS13 — Eksperimen 4](Screenshot/ss13.png)
+![Screenshot 13](Screenshot/ss13%20(3).png)
 
-### SS14 — Eksperimen 5
+### Screenshot 14 — Hasil Eksperimen
 
-![SS14 — Eksperimen 5](Screenshot/ss14.png)
+![Screenshot 14](Screenshot/ss14.png)
 
-### SS15 — Eksperimen 6
+### Screenshot 15 — Hasil Eksperimen
 
-![SS15 — Eksperimen 6](Screenshot/ss15.png)
+![Screenshot 15](Screenshot/ss15%20(2).png)
 
-### SS16 — Dokumentasi Tugas
+### Screenshot 16 — Hasil Eksperimen
 
-![SS16 — Dokumentasi Tugas](Screenshot/ss16.png)
-
-> **Jika gambar belum muncul:** periksa apakah nama folder benar-benar `Screenshot`, dan nama file tepat `ss1.png`, `ss2.png`, ... `ss16.png`. GitHub membedakan huruf besar dan kecil. Jika ekstensi aslinya `.jpg`, `.jpeg`, atau `.PNG`, sesuaikan tautan di atas dengan nama file yang sebenarnya.
+![Screenshot 16](Screenshot/ss16%20(3).png)
 
 ## Kesimpulan
 
-Praktikum JavaScript Dasar memberikan pemahaman mengenai penggunaan JavaScript bersama HTML untuk membuat halaman web yang interaktif. Melalui latihan, mini project, dan eksperimen mandiri, konsep variabel, operator, percabangan, perulangan, function, DOM, serta validasi input diterapkan dalam kasus sederhana. Mini project Kalkulator Nilai Mahasiswa juga menunjukkan pentingnya memisahkan proses perhitungan, validasi, dan tampilan hasil agar program lebih terstruktur.
+Praktikum JavaScript Dasar memberikan pemahaman mengenai penggunaan JavaScript bersama HTML untuk membuat halaman web yang interaktif. Melalui latihan, mini project, dan eksperimen mandiri, konsep variabel, operator, percabangan, perulangan, function, DOM, dan validasi input dapat dipraktikkan dalam kasus sederhana.
+
+Mini project Kalkulator Nilai Mahasiswa juga memberikan pengalaman dalam menerapkan logika perhitungan dan menampilkan hasil berdasarkan input pengguna.
 
 ## Repository
 
-Repository GitHub praktikum: **`Lab5Web`**
+Repository GitHub praktikum: [Lab5Web](https://github.com/yusufhamdani865-code/Lab5Web)
 
 Repository ini digunakan untuk menyimpan file HTML, JavaScript, screenshot dokumentasi, dan README sebagai dokumentasi pengerjaan Praktikum 5 JavaScript Dasar.
 
